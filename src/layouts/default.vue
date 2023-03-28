@@ -1,7 +1,6 @@
 <template>
   <div>
     <header-vue></header-vue>
-    <div>adnwadiwajdawflanflea</div>
     <main>
       <router-view />
     </main>
