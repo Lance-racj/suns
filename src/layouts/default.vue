@@ -1,7 +1,7 @@
 <template>
-  <div>
+  <div class="flex flex-col min-h-screen">
     <header-vue></header-vue>
-    <main class="max-w-[49rem] px-4 mx-auto">
+    <main class="max-w-[49rem] px-4 mx-auto flex-grow">
       <router-view />
     </main>
     <footer-vue></footer-vue>

@@ -14,6 +14,11 @@ export default {
 @tailwind components;
 @tailwind utilities;
 
+* {
+  padding: 0;
+  margin: 0;
+}
+
 html {
   font-size: 18px;
 }
@@ -35,6 +40,10 @@ html {
 
 #nav a.router-link-exact-active {
   color: #42b983;
+}
+
+h1 {
+  @apply text-4xl;
 }
 
 h3 {
