@@ -1,9 +1,5 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
     <router-view/>
   </div>
 </template>
@@ -13,13 +9,19 @@ export default {
 };
 </script>
 
-<style>
+<style lang="postcss">
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  font-size: 18px;
+}
+
 #app {
+  @apply text-gray-900;
   font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+  color: #1a202c;
 }
 
 #nav {
@@ -33,5 +35,9 @@ export default {
 
 #nav a.router-link-exact-active {
   color: #42b983;
+}
+
+h3 {
+  @apply text-xl;
 }
 </style>

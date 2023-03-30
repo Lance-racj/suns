@@ -15,10 +15,5 @@ module.exports = {
   // devServer: {
   //   port: 3000
   // },
-  // pluginOptions: {
-  //   autoRouting: {
-  //     chunkNamePrefix: 'pages-'
-  //   }
-  // },
   // publicPath: "./"
 };

@@ -1,7 +1,7 @@
 <template>
   <div>
     <header-vue></header-vue>
-    <main>
+    <main class="max-w-3xl px-4 mx-auto">
       <router-view />
     </main>
     <footer-vue></footer-vue>
