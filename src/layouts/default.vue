@@ -9,14 +9,14 @@
 </template>
 
 <script lang="ts">
-import HeaderVue from '@/modules/common/Header.vue';
-import FooterVue from '@/modules/common/Footer.vue';
+import HeaderVue from "@/modules/common/Header.vue";
+import FooterVue from "@/modules/common/Footer.vue";
 export default {
   components: {
     HeaderVue,
-    FooterVue
-  }
-}
+    FooterVue,
+  },
+};
 </script>
 
 <style lang="postcss" scoped></style>

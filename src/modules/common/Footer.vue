@@ -11,11 +11,11 @@
 
 <script lang="ts">
 import day from "dayjs";
-export default{
+export default {
   computed: {
     curYear() {
       return day().year();
-    }
-  }
+    },
+  },
 };
 </script>
