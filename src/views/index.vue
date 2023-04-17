@@ -5,12 +5,12 @@
 </template>
 
 <script lang="ts">
-import Vue from "vue";
-import DocList from "@/modules/docs/DocList.vue";
+import Vue from 'vue';
+import DocList from '@/modules/docs/DocList.vue';
 // import axios from "axios";
 
 export default Vue.extend({
-  name: "Home",
+  name: 'Home',
   components: {
     DocList,
   },
